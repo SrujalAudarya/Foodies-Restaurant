@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:wght@300,400,500;600;700&family-Roboto:wght@100;300;400;500,700;900&display=swap');
+
+/*==== Variable Define ====*/
+:root{
+    --primary-color: #A82C48;
+    --secondary-color: #43121d;
+    --third-color: #f98169;
+    --white-color: #fff;
+    --text-color: #555;
+    --text-gray: #999;
+    --black-color: #000;
+
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Quicksand', serif;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+}
+
+:active,
+:focus,
+:hover {
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+a,
+a:hover{
+    text-decoration: none;;
+}
+
+a:hover{
+    color: var(--primary-color);
+}
+
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: 100%;
+    font-weight: 400;
+}
+
+/* custom scrollbar */
+
+::-webkit-scrollbar {
+    width: 0.625rem;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--white-color);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
+}
